@@ -1,0 +1,191 @@
+html{
+    background-color: rgb(236, 235, 235);
+}
+
+h1 {
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+ .budget {
+     margin-left: 40px;
+     margin-top: 70px;
+     height: 150px;
+     width: 450px;
+     border: 2px solid green;
+     border-radius: 6px;
+     padding-top: 30px;
+     padding-left: 20px;
+     font-weight: bold;
+     font-size: 140%
+}
+
+ #budget {
+     margin-top: 10px;
+     width: 420px;
+     height: 30px;
+ }
+
+ .cal {
+     background-color:  rgb(236, 235, 235);
+     width: 100px;
+     height: 40px;
+     border: 2px solid green;
+     font-size: 70%;
+     color: green;
+     margin-top: 20px;
+     border-radius: 7px;
+ }
+
+  .cal:hover{
+      background-color: green;
+      color: white;
+      cursor: pointer;
+  }
+
+  .caution p{
+      position: absolute;
+      left: 80px;
+      top: 320px;
+      margin-left: 60px;
+      width: 200px;
+      height: 25px;
+      font-weight: bold;
+      padding: 20px;
+      background-color: rgba(236, 101, 101, 0.411);
+      color: rgb(238, 91, 91);
+  }
+
+ .expense {
+     border:  2px solid  rgb(184, 5, 5);
+     width: 470px;
+     height: 250px;
+     margin-left: 40px;
+     margin-top: 130px;
+     border-radius: 6px;
+     font-weight: bold;
+     font-size: 130%;
+     padding-top: 30px;
+     padding-left: 20px;
+ }
+
+ #title {
+     margin-top: 10px;
+     width: 420px;
+     height: 30px;
+     margin-bottom: 25px;
+ }
+
+ #expense {
+     margin-top: 10px;
+     width: 420px;
+     height: 30px;
+ }
+
+ .add {
+     background-color: rgb(236, 235, 235);
+     width: 150px;
+     height: 40px;
+     border: 2px solid rgb(184, 5, 5);
+     font-size: 70%;
+     color:  rgb(184, 5, 5);
+     margin-top: 20px;
+     border-radius: 7px;
+ }
+
+ .add:hover{
+     background-color:  rgb(184, 5, 5);
+     color: white ;
+    cursor: pointer;
+ }
+
+ .budgetView {
+     position: absolute;
+     top: 100px;
+     right: 1050px;
+     font-weight: bolder;
+ }
+
+ .expensesView {
+     position: absolute;
+     top: 100px;
+     right: 600px;
+     font-weight: bolder;
+ }
+
+ .balanceView {
+     position: absolute;
+     top: 100px;
+     right: 200px;
+     font-weight: bolder;
+ }
+
+ .budgetView img{
+    height: 150px;
+    position: absolute;
+    left : 35px;
+ }
+ .budgetView p {
+     font-weight: bolder;
+     font-size: 300%;
+     color: green;
+     position: absolute;
+     top: 200px;
+     left: 30px;
+
+ }
+ .expensesView img {
+     width: 200px;
+     position: absolute;
+     left: 25px;
+ }
+
+ .expensesView p {
+    font-weight: bolder;
+    font-size: 300%;
+    color:red;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+
+}
+
+ .balanceView img {
+     width: 200px;
+     position: absolute;
+     top: 50px;
+ }
+
+ .balanceView p {
+    font-weight: bolder;
+    font-size: 300%;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+
+}
+
+ .listing {
+     display: flex;
+     position: absolute;
+     left : 750px;
+     top: 450px;
+     flex-direction: row;
+}
+
+.title {
+    width: 300px;
+}
+
+.value {
+    width: 300px;
+}
+
+.options {
+    width: 500px;
+}
+
+.options img:nth-child(1){
+    margin-top: 70px;
+}
